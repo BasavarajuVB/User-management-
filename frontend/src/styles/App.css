@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --background-color: #f3f4f6;
+  --text-color: #1f2937;
+  --error-color: #dc2626;
+  --success-color: #059669;
+  --border-radius: 8px;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: var(--background-color);
+  padding: 2rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .user-form {
+    min-width: 80%;
+  }
+
+}
+
+
+h1 {
+  color: var(--text-color);
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+} 
