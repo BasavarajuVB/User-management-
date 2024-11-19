@@ -19,7 +19,7 @@ Welcome to the **User Management Application**! 🎉 This full-stack app allows 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-name/user-management-app.git
+   git clone https://github.com/BasavarajuVB/User-management-.git
    cd user-management-app
    ```
 
